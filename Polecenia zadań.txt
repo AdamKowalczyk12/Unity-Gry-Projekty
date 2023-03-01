@@ -1,0 +1,176 @@
+
+Zad.1 Wyspa
+
+Jako wynik realizacji zadania 1 należy zwrócić archiwum zawierające kompletny projekt
+Unity 3D
+Maksymalny dopuszczalny rozmiar pliku po kompresji 50 MB
+
+Korzystając z Unity 3D przygotuj scenę, której głównym elementem będzie model terenu
+przedstawiający twoją autorską wizję wyspy skarbów.
+
+Po wymodelowaniu wyspy w wybranym miejscu umieść prefabrykat postaci gracza w
+pierwszej osobie.
+
+W dołączonym do projektu pliku w formacie .pdf umieść listę użytych w trakcie realizacji
+pakietów pobranych np. z Unity asset store.
+
+Zapamiętaj przygotowaną scenę jako scena1Wyspa.
+
+Zad.2 FPS 
+
+Jako wynik realizacji zadania 2 należy zwrócić archiwum zawierające kompletny projekt
+Unity 3D
+Maksymalny dopuszczalny rozmiar pliku po kompresji 50 MB
+
+Korzystając z Unity 3D przygotuj scenę, której głównym elementem będzie fragment gry typu
+first-person shooter – FPS
+
+W zaimplementowanym fragmencie gry przygotuj:
+• Fragment korytarza (zobacz rysunek 3).
+• Postać gracza w pierwszej osobie.
+• Minimum 2 maksimum 4 ruchome przeszkody (użyj tylko podstawowych modeli 3d:
+kula, sześcian, walec). W trakcie rozgrywki gracz powinien unikać kontaktu z
+przeszkodami.
+• Minimum 3 maksimum 5 monet do zebrania (jako monety użyl modelu kuli). W
+trakcie rozgrywki gracz powinien zbierać monety.
+• Minimum 2 maksimum 4 obiekty przeciwników (użyj model kapsuły). Przeciwnicy są
+nieruchomi. W trakcie rozgrywki gracz powinien zlikwidować przeciwników.
+• Punkt startowy. W tym punkcie umieszczona jest postać gracza na starcie gry oraz po
+kolizji z przeszkodą lub przeciwnikiem. Po kolizji z przeszkodą lub przeciwnikiem gra
+przywracana jest do stanu początkowego.
+• Punkt końcowy. Jeżeli gracz dotrze do punktu końcowego oraz zdobędzie minimum
+dwie monety oraz zlikwiduje minimum dwóch przeciwników ze sceny usuwany jest
+obiekt gracza (gra się kończy).
+• Skrypty.
+
+Zad.3 Menu i Wyświetlacz HUD
+
+Jako wynik realizacji zadania 3 należy dostarczyć skompilowaną wersję projektu (gry) dla
+systemu Windows 10/11 (bez plików źródłowych).
+
+Przygotuj menu główne gry oraz wyświetlacz typu HUD zawierający informacje o stanie gry.
+Menu główne powinno zawierać opcje:
+1. Start
+a. Nowa gra – opcja uruchamia nową scenę, która powinna zostać wykorzystana do
+prezentacji przygotowanego wyświetlacza typu HUD
+b. Wznowienie gry – opcja nie jest obsługiwana
+2. Ustawienia dźwięku
+a. Muzyka (z opcją włączona, wyłączona) – zapamiętanie ustawień użytkownika
+b. Efekty dźwiękowe (z opcją włączone, wyłączone) – zapamiętanie ustawień
+użytkownika
+c. Głośność (suwak z poziomem głośności) – zapamiętanie ustawień użytkownika
+3. Ustawienia ekranu
+a. Rozdzielczość (opcje do wyboru) – zapamiętanie ustawień użytkownika
+b. Pełny ekran (z opcją włączony, wyłączony) – zapamiętanie ustawień użytkownika
+4. Instrukcja – opcja powoduje wyświetlenie krótkiego instruktażu dotyczącego włączenia
+i wyłączenia wyświetlacza typu HUD oraz wyświetlenia menu głównego w scenie
+uruchamianej po wyborze opcji Nowa gra. Dodatkowo powinna zawierać informację
+o gatunku gry dla którego zaprojektujesz wyświetlacz typu HUD
+5. Koniec gry
+a. Zapisanie stanu gry – opcja kończy grę na razie bez zapamiętywania stanu gry
+b. Bez zapisania stanu gry - opcja kończy grę
+
+Wyświetlacz typu HUD
+Zaproponuj wygląd wyświetlacza HUD dla wybranego przez siebie gatunku gry.
+Zaimplementuj obsługę wybranych czynności realizowanych przez gracza (np. wybór broni).
+W grze powinna istnieć możliwość włączenia i wyłączenia wyświetlacza HUD oraz menu głównego.
+
+Zad.4 Winda
+
+Jako wynik realizacji zadania 4 należy zwrócić archiwum zawierające kompletny projekt
+Unity 3D
+Maksymalny dopuszczalny rozmiar pliku po kompresji 50 MB
+
+Nazwa pliku – NazwiskoImieZadanie5.zip (np. FilipczykGrzegorzZadanie5.zip)
+
+Przygotuj scenę, na której głównym elementem będzie winda przemieszczająca się pomiędzy
+trzema poziomami oznaczonymi jako:
+• Poziom 0 – dominujący kolor niebieski,
+• Poziom 1 – dominujący kolor zielony,
+• Poziom 2 – dominujący kolor czerwony.
+Gracz (postać gracza w pierwszej osobie) rozpoczyna grę na poziomie 1 i na tym poziomie oczekuje
+na gracza winda.
+Winda z postacią gracza porusza się zawsze tylko o jeden poziom:
+• z poziomu 0 na poziom 1
+• z poziomu 1 losowo na poziom 0 lub poziom 2
+• z poziomu 2 na poziom 1
+Winda rozpoczyna ruch, gdy spełnione są dwa warunki:
+• Postać gracza znajduje się w windzie.
+• Postać gracza użyje przycisku uruchamiającego windę, który powinien być zlokalizowany na
+jednej ze ścian windy (przycisk obsługiwany z wykorzystaniem rzucania promienia).
+Po wejściu do windy wyświetl graczowi instrukcję obsługi windy. Wyjaśnij co należy zrobić by
+prawidłowo obsłużyć rzucenie promienia.
+
+Sceną zapamiętaj jako WindaScena.
+
+Zad.5 Agenci
+
+Jako wynik realizacji zadania 5 należy zwrócić archiwum zawierające kompletny projekt
+Unity 3D
+
+Przygotuj skrypty oraz inne elementy gry pozwalające na:
+1. Pojawienie się w świecie gry autonomicznych agentów – postaci NPC (wykorzystaj
+prefabrykat PrzeciwnikAgent).
+2. Nowe obiekty agentów powinny pojawiać się w miejscu oznaczonym w świecie gry jako
+StartAgent.
+3. Pojawieniu się nowego agenta powinien towarzyszyć efekt dźwiękowy.
+4. Maksymalna liczba agentów obecnych w grze to 10.
+5. Agenci powinni pojawiać się w świecie gry co około 10 sekund.
+6. Nowy agent po pojawieniu się w świecie gry powinien poruszać się do jednego z punktów
+oznaczonych jako: Cel1, Cel2, Cel3, Cel4, Cel5. Wybór punktu docelowego dla agenta
+powinien następować losowo.
+7. Po dotarciu do punktu docelowego dla agenta powinien zostać wylosowany nowy punkt
+docelowy (agent rozpoczyna patrolowanie przemieszczając się pomiędzy punktami
+docelowymi).
+8. Ostatecznie po planszy powinno poruszać się dziesięciu agentów losowo przemieszczających
+się pomiędzy punktami oznaczonymi jako: Cel1, Cel2, Cel3, Cel4, Cel5
+9. Dobierz ustawienia dla kamery tak by cały obszar gry był widoczny.
+10. Zaimplementuj licznik agentów wyświetlający aktualną liczbę agentów obecnych na planszy.
+11. Do sceny dodaj muzykę odtwarzaną w tle.
+12. Przy implementacji skryptów zwróć uwagę na ich optymalizację.
+
+Zad.6 Remake Gry Arkanoid
+
+Jako wynik realizacji zadania 5 należy zwrócić:
+• archiwum zawierające kompletny projekt Unity 3D
+• skompilowaną wersję projektu (gry) dla systemu Windows 10.
+
+Przygotuj swój autorski remake jednej z klasycznych gier komputerowych.
+Remake gry komputerowej to gra tworzona od podstaw, której elementy w dużym stopniu
+bazują na oryginalnej produkcji.
+
+Dla gry zaprojektuj własne asety.
+Przygotuj plansze startową i końcową.
+Dla gry zaprojektuj i zaimplementuj odpowiedni interfejs.
+
+Zad.7 Efekty Specjalne- Śnieg
+
+Jako wynik realizacji zadania 7 należy zwrócić:
+• archiwum zawierające kompletny projekt Unity 3D
+
+Przygotuj przykładowy system cząstek. Następnie zaimplementuj scenę pozwalająca na
+zademonstrowania przygotowanego systemu cząstek w działaniu.
+
+Zad.8 Lewitujące Platformy
+
+Jako wynik realizacji zadania 8 należy zwrócić:
+• skompilowaną wersję projektu (gry) dla systemu Windows 10.
+
+W pliku Zadanie8.zip znajduje się spakowany projekt dla silnika Unity. Po pobraniu i rozpakowaniu
+projektu dokonaj w nim następujących modyfikacji:
+• W miejscu oznaczonym jako „Punkt startowy” umieść postać gracza w pierwszej osobie.
+• Korzystając z animacji i skryptów przygotuj obsługę lewitującej platformy.
+• Korzystając z animacji i skryptów przygotuj obsługę windy.
+• Korzystając z animacji i skryptów przygotuj obsługę zbierania monet.
+
+Lewitująca Platforma – kursuje pomiędzy punktami nazwanymi „Start”, „Meta”.
+Zaproponuj mechanizm przywoływania i uruchamiania animowanej platformy w punktach „Start”,
+„Meta”.
+
+Winda porusza się po elewacji budynku pozwalając na transport gracza na dach budynku.
+Zaproponuj mechanizm pozwalający na uruchamianie animowanej windy kursującej w dwóch
+kierunkach.
+
+Zadbaj o prawidłową komunikację gry z graczem.
+
+Gra kończy cię, gdy gracz zbierze dwie znajdujące się świecie gry monety.
